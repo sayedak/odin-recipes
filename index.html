@@ -6,17 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin-Recepies</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <figure><img src="images/odin.png" alt="Odin's logo" title="The good ol' Odin" width="200" height="200"></figure>
-    <h1>Odin-Recipes</h1><br>
+<body class="body">
+    <div class="logoAndText">
+        <img class="odin-img" src="images/odin.png" alt="Odin's logo" title="The good ol' Odin">
+        <h1 class="home-title">/Odin-Recipes</h1>
+    </div>
     <hr>
-    <p>Here are some recipes by <em><strong>Odin</strong></em> himself. And he would like you to cook some in your
-        kitchen. It's all about the e=mc<sup>2</sup>.</p><br>
-    <h2><strong>Recipes</strong></h2>
-    <p>1.<a href="recipes/lasagna.html" target="_blank">Lasagna</a></p>
-    <p>2.<a href="recipes/turkey.html">Turkey</a></p>
+    <div class="intro">
+        <div id="home-intro"><span>Here are some recipes by <em><strong>Odin</strong></em> himself. And, he would like
+                you to
+                cook some in
+                your kitchen. This is a practice webpage from the Odin project; so there might be lots of errors and
+                untidyness It's all about the e=mc<sup>2</sup>.</span></div>
+    </div>
+    <hr>
+    <div>
+        <h2><strong>Recipes</strong></h2>
+    </div>
+    <p class="index">1.<a id="lasagna" href="recipes/lasagna.html" target="_blank">Lasagna</a></p>
+    <p class="index">2.<a id="turkey" href="recipes/turkey.html">Turkey</a></p>
     <br>
     <hr>
     <footer>
