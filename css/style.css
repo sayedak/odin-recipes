@@ -1,7 +1,7 @@
 /*declared the common font family overall*/
 .body {
-    background-color: #C1CFC0;
-    color: #222325;
+    background-color: #EDF6E5;
+    color: #222831;
     font-family: monospace;
     margin-left: auto;
     margin-right: auto;
@@ -10,15 +10,36 @@
 }
 
 hr {
-    border: dotted #171717 9px;
+    border: dotted #e3e3e353 9px;
     border-bottom: none;
-    width: 50%;
+    width: 30%;
     margin-bottom: 30px;
     margin: 90px auto;
 
 }
 
-/*--------------------CLASS AND ID SELECTORS---------------------------*/
+/*#####GROUPED ELEMENTS sharing same div margin values####*/
+.intro,
+.recipe-menu {
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B5EAEA !important;
+}
+
+a:visited {
+    color: #F38BA0;
+}
+
+/*--------------------CLASS AND ID SELECTORS-----------------*/
+/*##################TOP PORTION######################*/
+
 /*odin image*/
 .odin-img {
     width: 10%;
@@ -27,7 +48,6 @@ hr {
     padding-right: 250px;
     position: relative;
 }
-
 
 /*Logo div*/
 .logoAndText {
@@ -41,14 +61,17 @@ hr {
     margin-top: 10%;
 }
 
+/*##################INTRO PORTION######################*/
+
+/*intro div adjustment*/
 .intro {
     display: block;
     width: 100%;
     position: relative;
-    margin-bottom: 250px;
-    margin-top: 250px;
 }
 
+
+/*intro text adjustment*/
 #home-intro {
     column-count: 2;
     column-gap: 5%;
@@ -57,4 +80,17 @@ hr {
     padding-left: 20%;
     padding-right: 20%;
     text-align: left;
+}
+
+/*##################RECIPE LIST PORTION######################*/
+
+/*RECIPE LIST DECLARATION*/
+.recipe-menu h1 {
+    font-size: 6rem;
+    margin-top: -200px;
+}
+
+.recipe-menu p {
+    font-size: 2rem;
+    color: azure;
 }
