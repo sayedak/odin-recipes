@@ -1,6 +1,7 @@
 /*declared the common font family overall*/
 .body {
-    background-color: #EDF6E5;
+    /*background-color: #EDF6E5;*/
+    background-image: linear-gradient(to left top, #edf6e5, #e3f4e2, #d9f2e2, #cef0e3, #c3eee5, #b1e9eb, #a4e2f2, #9fdaf9, #abc9fc, #c9b4f0, #e69dcf, #f38ba0);
     color: #222831;
     font-family: monospace;
     margin-left: auto;
