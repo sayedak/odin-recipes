@@ -38,7 +38,7 @@ hr {
 /*home title*/
 .home-title {
     font-size: 8rem;
-    margin-top: 100px;
+    margin-top: 10%;
 }
 
 .intro {
@@ -53,8 +53,8 @@ hr {
     column-count: 2;
     column-gap: 5%;
     font-size: 1.4rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
     padding-left: 20%;
     padding-right: 20%;
-    text-align: justify;
+    text-align: left;
 }
