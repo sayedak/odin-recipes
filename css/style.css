@@ -2,8 +2,8 @@
 .body {
     /*background-color: #EDF6E5;*/
     background-image: linear-gradient(to left top, #edf6e5, #e3f4e2, #d9f2e2, #cef0e3, #c3eee5, #b1e9eb, #a4e2f2, #9fdaf9, #abc9fc, #c9b4f0, #e69dcf, #f38ba0);
-    color: #222831;
-    font-family: monospace;
+    color: #3d3f3f;
+    font-family: 'Questrial', sans-serif;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -22,15 +22,16 @@ hr {
 
 /*####Link styling*/
 a {
+    color: #F38BA0;
     text-decoration: none;
 }
 
 a:hover {
-    color: #B5EAEA !important;
+    color: #8a71ec !important;
 }
 
 a:visited {
-    color: #F38BA0;
+    color: #e2173f;
 }
 
 
@@ -42,6 +43,7 @@ button {
     padding: 15px 30px;
     text-align: center;
     font-size: 18px;
+    font-weight: 600;
     letter-spacing: 1px;
     text-decoration: none;
     color: #725AC1;
@@ -71,9 +73,6 @@ button:active {
 }
 
 
-
-
-
 /*--------------------CLASS AND ID SELECTORS-----------------*/
 /*##################TOP PORTION######################*/
 
@@ -94,6 +93,7 @@ button:active {
 
 /*home title*/
 .home-title {
+    font-family: monospace;
     font-size: 8rem;
     margin-top: 10%;
 }
@@ -110,26 +110,50 @@ button:active {
 
 /*intro text adjustment*/
 #home-intro {
-    column-count: 2;
-    column-gap: 5%;
+
     font-size: 1.4rem;
+    font-weight: 600;
     line-height: 2.5rem;
     padding-left: 20%;
     padding-right: 20%;
-    text-align: left;
+    text-align: center;
 }
 
 /*##################RECIPE LIST PORTION######################*/
 
 /*RECIPE LIST DECLARATION*/
-.recipe-menu h1 {
+
+.h1-recipe {
     font-size: 6rem;
-    margin-top: -200px;
+    font-weight: 700;
 }
 
+.recipe-menu h1 {
+
+    margin-top: -150px;
+}
 
 
 .recipe-menu p {
     font-size: 2rem;
     color: azure;
 }
+
+/*########Footer class############*/
+.footer {
+    background-image: radial-gradient(circle, #d16ba555, #c777b89c, #b983ca88, #aa8fd8, #9a9ae19f, #8aa7ec, #79b2f49f, #69bff89d, #52cffe, #41dfff75, #46eefa7c, #5ffbf193);
+    background-blend-mode: hard-light;
+    padding-bottom: 10px;
+}
+
+
+/*#### The nice message###############*/
+
+.good-look {
+    color: #032559;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: -2-10px;
+    padding-top: 230px;
+    padding-bottom: 270px;
+    font
