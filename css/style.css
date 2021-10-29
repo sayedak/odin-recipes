@@ -143,14 +143,18 @@ button:active {
 .footer {
     background-image: radial-gradient(circle, #d16ba555, #c777b89c, #b983ca88, #aa8fd8, #9a9ae19f, #8aa7ec, #79b2f49f, #69bff89d, #52cffe, #41dfff75, #46eefa7c, #5ffbf193);
     background-blend-mode: hard-light;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
+}
+
+.footer p {
+    padding-top: 60px;
 }
 
 
 /*#### The nice message###############*/
 
 .good-look {
-    color: #032559;
+    color: #032559f1;
     font-size: 3rem;
     font-weight: 700;
     margin-top: -2-10px;
