@@ -267,3 +267,14 @@ button:active {
     margin-top: 20px;
     max-width: 100%;
 }
+
+/*################## TURKEY IMAGE ######################*/
+
+.turkey-img {
+    position: relative;
+    width: 35%;
+    height: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(70, 68, 68));
+}
+
+/*figcaption is declared universally above in Lasagna section*/
