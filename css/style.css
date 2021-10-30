@@ -180,7 +180,7 @@ button:active {
 .lasagna-lists {
     font-size: 1.2rem;
     text-align: left;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
     margin: auto;
     max-width: 450px;
 }
@@ -265,7 +265,7 @@ button:active {
 .turkey-lists {
     font-size: 1.2rem;
     text-align: left;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
     margin: auto;
     max-width: 450px;
 }
@@ -299,5 +299,17 @@ button:active {
 /* class name Included in the Lasagna Grouped section */
 
 /*################## INGREDIENTS ######################*/
+/* class name Included in the Lasagna Grouped section */
+/*Included in the COMMON section */
+
+/*################## DIRECTIONS ######################*/
+/* class name Included in the Lasagna Grouped section */
+/*Included in the COMMON section */
+
+/*################## DIRECTIONS ######################*/
 /*Included in the Grouped section */
 /*Included in the COMMON section */
+
+.turkey-ol {
+    padding-bottom: 50px;
+}
