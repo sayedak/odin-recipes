@@ -75,7 +75,8 @@ button:active {
 }
 
 .footer p {
-    margin-top: 0px;
+    max-width: 400px;
+    margin: auto;
     padding-top: 40px;
 }
 
