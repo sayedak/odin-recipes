@@ -171,13 +171,26 @@ button:active {
 }
 
 /*###############################--------------LASAGNA.html----------------###################################*/
+
+/*############## COMMON SELECTORS#############*/
+
+.lasagna-lists {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin: auto;
+    text-align: left;
+    max-width: 450px;
+}
+
 /*################## GROUPED TOGETHER ######################*/
 
-.nutrition,
 .description,
-.brief {
+.brief,
+.nutrition,
+.ingredients {
     font-size: 3rem;
     font-weight: 600;
+    padding-bottom: 33px;
 }
 
 .description p,
@@ -208,20 +221,15 @@ button:active {
 }
 
 /*################## DESCRIPTION BLOCK ######################*/
-
-
+/*Included in the Grouped section */
 
 /*################## BRIEF INFORMATION BLOCK ######################*/
-.lasagna-ul {
-    /*padding-left: 41%;*/
-}
-
-.lasagna-lists {
-    font-size: 1.2rem;
-    line-height: 3rem;
-    margin: auto;
-    text-align: left;
-    max-width: 300px;
-}
+/*Included in the COMMON section */
+/*Included in the COMMON section */
 
 /*################## NUTRITION FACTS ######################*/
+/*Included in the Grouped section */
+
+/*################## INGREDIENTS ######################*/
+/*Included in the Grouped section */
+/*Included in the COMMON section */
