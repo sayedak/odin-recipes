@@ -141,6 +141,11 @@ button:active {
     width: 60%;
 }
 
+.intro p {
+    font-size: 5rem;
+    margin-top: -80px;
+}
+
 /*##################RECIPE LIST PORTION##################*/
 
 /*RECIPE LIST DECLARATION*/
