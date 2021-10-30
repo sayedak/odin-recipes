@@ -88,7 +88,7 @@ button:active {
 
 /*###############################--------------INDEX.html----------------###################################*/
 
-/*##################TOP PORTION######################*/
+
 
 /*#####GROUPED ELEMENTS sharing same div margin values####*/
 .intro,
@@ -96,6 +96,8 @@ button:active {
     margin-bottom: 250px;
     margin-top: 250px;
 }
+
+/*##################TOP PORTION######################*/
 
 /*Logo div*/
 .logoAndText {
@@ -170,10 +172,24 @@ button:active {
 
 /*###############################--------------LASAGNA.html----------------###################################*/
 /*################## GROUPED TOGETHER ######################*/
+
+.nutrition,
 .description,
 .brief {
     font-size: 3rem;
     font-weight: 600;
+}
+
+.description p,
+.nutrition p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: auto;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-top: 30px;
+    text-align: left;
 }
 
 /*################## PAGE TITLE ######################*/
@@ -193,16 +209,7 @@ button:active {
 
 /*################## DESCRIPTION BLOCK ######################*/
 
-.description p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 2rem;
-    margin: auto;
-    max-width: 600px;
-    padding-left: 10px;
-    padding-top: 30px;
-    text-align: left;
-}
+
 
 /*################## BRIEF INFORMATION BLOCK ######################*/
 .lasagna-ul {
