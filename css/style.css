@@ -260,6 +260,15 @@ button:active {
 }
 
 /*###############################--------------TURKEY.html----------------###################################*/
+/*############## COMMON SELECTORS#############*/
+
+.turkey-lists {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2.5rem;
+    margin: auto;
+    max-width: 450px;
+}
 
 /*################## PAGE TITLE ######################*/
 .title-turkey {
@@ -277,4 +286,11 @@ button:active {
     filter: drop-shadow(0 0 0.75rem rgb(70, 68, 68));
 }
 
-/*figcaption is declared universally above in Lasagna section*/
+/* class name figcaption is declared universally above in Lasagna section*/
+
+/*################## DESCRIPTION BLOCK ######################*/
+/* class name Included in the Lasagna Grouped section */
+
+/*################## BRIEF INFORMATION BLOCK ######################*/
+/*Included in the COMMON section */
+/*Included in the COMMON section */
