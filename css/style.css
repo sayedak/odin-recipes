@@ -72,8 +72,21 @@ button:active {
     margin-top: 250px;
 }
 
+/*########Footer class############*/
+.footer {
+    background-image: radial-gradient(circle, #d16ba555, #c777b89c, #b983ca88, #aa8fd8, #9a9ae19f, #8aa7ec, #79b2f49f, #69bff89d, #52cffe, #41dfff75, #46eefa7c, #5ffbf193);
+    background-blend-mode: hard-light;
+    padding-bottom: 70px;
+}
 
-/*--------------------CLASS AND ID SELECTORS-----------------*/
+.footer p {
+    padding-top: 60px;
+}
+
+
+/*##############--------------------CLASS AND ID SELECTORS-----------------########################*/
+
+/*###############################--------------INDEX.html----------------###################################*/
 
 /*##################TOP PORTION######################*/
 
@@ -117,7 +130,7 @@ button:active {
     width: 60%;
 }
 
-/*##################RECIPE LIST PORTION######################*/
+/*##################RECIPE LIST PORTION##################*/
 
 /*RECIPE LIST DECLARATION*/
 
@@ -137,19 +150,8 @@ button:active {
     color: azure;
 }
 
-/*########Footer class############*/
-.footer {
-    background-image: radial-gradient(circle, #d16ba555, #c777b89c, #b983ca88, #aa8fd8, #9a9ae19f, #8aa7ec, #79b2f49f, #69bff89d, #52cffe, #41dfff75, #46eefa7c, #5ffbf193);
-    background-blend-mode: hard-light;
-    padding-bottom: 70px;
-}
 
-.footer p {
-    padding-top: 60px;
-}
-
-
-/*#### good-look part###############*/
+/*################ good-look part###############*/
 
 .good-look {
     font-size: 3rem;
@@ -159,3 +161,13 @@ button:active {
     margin: -60px auto 10px auto;
     width: 50%;
 }
+
+/*###############################--------------LASAGNA.html----------------###################################*/
+
+/*################## PAGE TITLE ######################*/
+.title-lasagna {
+    font-size: 5rem;
+    margin-top: 20px;
+}
+
+/*################## PAGE TITLE ######################*/
