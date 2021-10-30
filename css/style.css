@@ -1,7 +1,7 @@
 /*declared the common font family overall*/
 .body {
     /*background-color: #EDF6E5;*/
-    background-image: linear-gradient(to left top, #edf6e5, #e3f4e2, #d9f2e2, #cef0e3, #c3eee5, #b1e9eb, #a4e2f2, #9fdaf9, #abc9fc, #c9b4f0, #e69dcf, #f38ba0);
+    background-image: linear-gradient(to top, #5ffbf1, #3ffcd1, #51faa3, #7bf46a, #a8eb12);
     color: #3d3f3f;
     font-family: 'Questrial', sans-serif;
     margin-left: auto;
