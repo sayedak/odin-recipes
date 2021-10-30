@@ -170,4 +170,15 @@ button:active {
     margin-top: 20px;
 }
 
-/*################## PAGE TITLE ######################*/
+/*################## LASAGNA IMAGE ######################*/
+.figure {
+    position: relative;
+}
+
+.lasagna-img {
+    position: relative;
+    width: 35%;
+    height: auto;
+}
+
+/*################## DIRECTION BLOCK ######################*/
