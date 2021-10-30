@@ -223,6 +223,11 @@ button:active {
     position: relative;
     width: 35%;
     height: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(70, 68, 68));
+}
+
+#figcaption {
+    padding-top: 20px;
 }
 
 /*################## DESCRIPTION BLOCK ######################*/
