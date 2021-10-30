@@ -77,6 +77,13 @@ button:active {
 
 /*##################TOP PORTION######################*/
 
+
+/*Logo div*/
+.logoAndText {
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
 /*odin image*/
 .odin-img {
     width: 220px;
@@ -84,17 +91,15 @@ button:active {
     position: relative;
 }
 
-/*Logo div*/
-.logoAndText {
-    padding-top: 20px;
-    padding-bottom: 100px;
-}
-
 /*home title*/
 .home-title {
     font-family: monospace;
-    font-size: 8rem;
-    margin-top: 10%;
+    font-size: 6rem;
+    font-weight: 900;
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+
 }
 
 /*##################INTRO PORTION######################*/
