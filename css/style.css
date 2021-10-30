@@ -247,12 +247,23 @@ button:active {
 /*################## DIRECTIONS ######################*/
 /*Included in the Grouped section */
 /*Included in the COMMON section */
+
 .lasagna-ol {
     padding-bottom: 50px;
 }
 
 /*################## DIRECTIONS ######################*/
+
 .footer-home {
     margin-top: -30px;
     padding-top: 50px;
+}
+
+/*###############################--------------TURKEY.html----------------###################################*/
+
+/*################## PAGE TITLE ######################*/
+.title-turkey {
+    font-size: 5rem;
+    margin-top: 20px;
+    max-width: 100%;
 }
