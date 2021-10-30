@@ -103,20 +103,21 @@ button:active {
 /*intro div adjustment*/
 .intro {
     display: block;
-    width: 100%;
+    width: 60%;
     position: relative;
+    padding-left: 370px;
+
 }
 
 
 /*intro text adjustment*/
 #home-intro {
-
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 2.5rem;
     padding-left: 20%;
     padding-right: 20%;
-    text-align: center;
+    text-align: justify;
 }
 
 /*##################RECIPE LIST PORTION######################*/
