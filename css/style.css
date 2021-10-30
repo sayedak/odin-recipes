@@ -4,8 +4,8 @@
     background-image: linear-gradient(to top, #5ffbf1, #3ffcd1, #51faa3, #7bf46a, #a8eb12);
     color: #3d3f3f;
     font-family: 'Questrial', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     text-align: center;
     margin: 0;
 }
@@ -74,14 +74,13 @@ button:active {
 
 
 /*--------------------CLASS AND ID SELECTORS-----------------*/
+
 /*##################TOP PORTION######################*/
 
 /*odin image*/
 .odin-img {
-    width: 10%;
+    width: 220px;
     margin-top: -1%;
-    padding-left: 250px;
-    padding-right: 250px;
     position: relative;
 }
 
@@ -101,13 +100,7 @@ button:active {
 /*##################INTRO PORTION######################*/
 
 /*intro div adjustment*/
-.intro {
-    display: block;
-    width: 60%;
-    position: relative;
-    padding-left: 370px;
-
-}
+.intro {}
 
 
 /*intro text adjustment*/
@@ -115,9 +108,9 @@ button:active {
     font-size: 1.4rem;
     font-weight: 600;
     line-height: 2.5rem;
-    padding-left: 20%;
-    padding-right: 20%;
-    text-align: justify;
+    text-align: left;
+    margin: auto;
+    width: 60%;
 }
 
 /*##################RECIPE LIST PORTION######################*/
@@ -152,13 +145,14 @@ button:active {
 }
 
 
-/*#### The nice message###############*/
+/*#### good-look part###############*/
 
 .good-look {
     color: #032559f1;
     font-size: 3rem;
     font-weight: 700;
-    margin-top: -2-10px;
+
     padding-top: 230px;
     padding-bottom: 270px;
-    font
+    margin: auto;
+    width: 50%;
