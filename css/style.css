@@ -1,12 +1,9 @@
 /*################## UNIVERSAL GENERIC DECLARATIONs ######################*/
 /*declared the common font family overall*/
 .body {
-    /*background-color: #EDF6E5;*/
-    background-image: linear-gradient(to top, #5ffbf1, #3ffcd1, #51faa3, #7bf46a, #a8eb12);
-    color: #3d3f3f;
+    background-image: linear-gradient(to right bottom, #e53f9d, #d55bba, #c172d0, #ab86df, #9796e7, #81a2ed, #6eacee, #60b5ec, #42bde9, #29c4e1, #29cad5, #41cfc5);
+    color: #ffffff;
     font-family: 'Questrial', sans-serif;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
     text-align: center;
     margin: 0;
 }
@@ -35,6 +32,9 @@ a:visited {
     color: #e2173f;
 }
 
+::selection {
+    background-color: hotpink;
+}
 
 /*####Added button style..imported from cssbuttons.io*/
 button {
@@ -68,13 +68,15 @@ button:active {
 
 /*########Footer class############*/
 .footer {
-    background-image: radial-gradient(circle, #d16ba555, #c777b89c, #b983ca88, #aa8fd8, #9a9ae19f, #8aa7ec, #79b2f49f, #69bff89d, #52cffe, #41dfff75, #46eefa7c, #5ffbf193);
-    background-blend-mode: hard-light;
+    background: rgba(255, 255, 255, 0.094);
+    background-blend-mode: overlay;
+    max-width: 100%;
     padding-bottom: 70px;
 }
 
 .footer p {
-    padding-top: 60px;
+    margin-top: 0px;
+    padding-top: 40px;
 }
 
 /*################## FIGUTE CAPTIONS UNIVERSAL ######################*/
@@ -176,9 +178,9 @@ button:active {
 
 .lasagna-lists {
     font-size: 1.2rem;
+    text-align: left;
     line-height: 2.5rem;
     margin: auto;
-    text-align: left;
     max-width: 450px;
 }
 
@@ -187,7 +189,8 @@ button:active {
 .description,
 .brief,
 .nutrition,
-.ingredients {
+.ingredients,
+.directions {
     font-size: 3rem;
     font-weight: 600;
     padding-bottom: 33px;
@@ -198,11 +201,12 @@ button:active {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 2rem;
+    text-align: left;
     margin: auto;
     max-width: 600px;
     padding-left: 10px;
     padding-top: 30px;
-    text-align: left;
+
 }
 
 /*################## PAGE TITLE ######################*/
@@ -233,3 +237,16 @@ button:active {
 /*################## INGREDIENTS ######################*/
 /*Included in the Grouped section */
 /*Included in the COMMON section */
+
+/*################## DIRECTIONS ######################*/
+/*Included in the Grouped section */
+/*Included in the COMMON section */
+.lasagna-ol {
+    padding-bottom: 50px;
+}
+
+/*################## DIRECTIONS ######################*/
+.footer-home {
+    margin-top: -30px;
+    padding-top: 50px;
+}
