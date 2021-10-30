@@ -1,3 +1,4 @@
+/*################## UNIVERSAL GENERIC DECLARATIONs ######################*/
 /*declared the common font family overall*/
 .body {
     /*background-color: #EDF6E5;*/
@@ -65,13 +66,6 @@ button:active {
     transform: scale(0.9);
 }
 
-/*#####GROUPED ELEMENTS sharing same div margin values####*/
-.intro,
-.recipe-menu {
-    margin-bottom: 250px;
-    margin-top: 250px;
-}
-
 /*########Footer class############*/
 .footer {
     background-image: radial-gradient(circle, #d16ba555, #c777b89c, #b983ca88, #aa8fd8, #9a9ae19f, #8aa7ec, #79b2f49f, #69bff89d, #52cffe, #41dfff75, #46eefa7c, #5ffbf193);
@@ -96,6 +90,12 @@ button:active {
 
 /*##################TOP PORTION######################*/
 
+/*#####GROUPED ELEMENTS sharing same div margin values####*/
+.intro,
+.recipe-menu {
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
 
 /*Logo div*/
 .logoAndText {
@@ -180,6 +180,7 @@ button:active {
 .title-lasagna {
     font-size: 5rem;
     margin-top: 20px;
+    max-width: 100%;
 }
 
 /*################## LASAGNA IMAGE ######################*/
@@ -190,12 +191,30 @@ button:active {
     height: auto;
 }
 
-/*################## DIRECTION BLOCK ######################*/
-
+/*################## DESCRIPTION BLOCK ######################*/
 
 .description p {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: auto;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-top: 30px;
+    text-align: left;
 }
 
-/*################## DIRECTION BLOCK ######################*/
+/*################## BRIEF INFORMATION BLOCK ######################*/
+.lasagna-ul {
+    /*padding-left: 41%;*/
+}
+
+.lasagna-lists {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin: auto;
+    text-align: left;
+    max-width: 300px;
+}
+
+/*################## NUTRITION FACTS ######################*/
