@@ -83,6 +83,12 @@ button:active {
     padding-top: 60px;
 }
 
+/*################## FIGUTE CAPTIONS UNIVERSAL ######################*/
+#figcaption {
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
 
 /*##############--------------------CLASS AND ID SELECTORS-----------------########################*/
 
@@ -171,9 +177,6 @@ button:active {
 }
 
 /*################## LASAGNA IMAGE ######################*/
-.figure {
-    position: relative;
-}
 
 .lasagna-img {
     position: relative;
