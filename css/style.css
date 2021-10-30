@@ -88,25 +88,24 @@ button:active {
 .odin-img {
     width: 220px;
     margin-top: -1%;
+    padding-top: 56px;
     position: relative;
 }
 
 /*home title*/
 .home-title {
     font-family: monospace;
-    font-size: 6rem;
+    font-size: 5.4rem;
     font-weight: 900;
     width: 70%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 60px;
 
 }
 
 /*##################INTRO PORTION######################*/
 
 /*intro div adjustment*/
-.intro {}
-
 
 /*intro text adjustment*/
 #home-intro {
@@ -127,9 +126,9 @@ button:active {
     font-weight: 700;
 }
 
-.recipe-menu h1 {
 
-    margin-top: -150px;
+.recipe-menu h1 {
+    margin-top: -55px;
 }
 
 
@@ -153,11 +152,10 @@ button:active {
 /*#### good-look part###############*/
 
 .good-look {
-    color: #032559f1;
     font-size: 3rem;
     font-weight: 700;
-
     padding-top: 230px;
     padding-bottom: 270px;
-    margin: auto;
+    margin: -60px auto 10px auto;
     width: 50%;
+}
